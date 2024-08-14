@@ -6,15 +6,15 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-}
+} 
 
-@media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: dark) { 
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --foreground-rgb: 255, 255, 255; 
     --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+     --background-end-rgb: 0, 0, 0;
   }
-}
+} 
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -31,3 +31,233 @@ body {
     text-wrap: balance;
   }
 }
+.leftSection{
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+.leftSection .logo img{
+  height: 45px;
+  border-radius: 8px;
+}
+.leftSection .logo-name span{
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.container{
+  /* background-color: rgb(255, 255, 255); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.rightSection a{  
+  justify-content: flex-end;
+  margin:  8px;
+  
+}
+.rightSection{
+  align-items: center;
+  place-items: center;
+}
+.rightSection #cv-download{
+  background-color: #FF6F00;
+  padding:8px;
+  border-radius: 10px;
+}
+#cv-download:hover{
+  font-size:1.08rem;
+  background-color: #e36708;
+
+}
+.rightSection a:hover{
+  color: #FF6F00;
+  font-size: 1.05rem;
+
+
+}
+.firstPage{
+  display: flex;
+  justify-content: space-around;
+  height: 85vh;
+}
+.image-here img{
+  margin-top: 65px;
+  border-radius: 80px;
+  height: 300px;
+}
+.firstPage .intro-lines{
+  align-items: center;
+  justify-content: center;
+  width:40vw;
+  padding: 60px;
+}
+.intro-lines span2{
+  font-size: 20px;
+  color: orange;
+}
+.intro-lines span3 , span4{
+  font-size:40px;
+  font-weight: 700;
+
+}
+
+span4{
+  /* float: right; */
+  margin-left: 100px;
+}
+.intro-lines button{
+  background-color: #FF6F00; 
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.intro-lines button:hover{
+  font-size:1.05rem;
+  background-color: #f98933;
+
+
+}
+.firstPage .imgSection{
+  width:30%;
+}
+.imgSection .contactIcons a{
+  color: rgb(155, 75, 5);
+  font-size: 40px;
+  margin: 10px;
+}
+.contactIcons a:hover{
+  color: #FF6F00;
+}
+
+
+/* Second /About me Page  */
+.aboutContainer{
+  display: flex;
+  justify-content: space-around;
+ 
+  height: 90vh;
+
+}
+.aboutContainer .photoContainer{
+  width: 30%;
+  padding: 10px;
+  margin-left: 100px;
+}
+.aboutContainer .aboutMeContainer{
+  width: 50%;
+  position: relative;
+  left: -90px;
+}
+.photoContainer .imgBox img{
+  border-radius: 80px;
+  height: 400px;
+
+}
+.aboutMeContainer .aboutLine{
+  /* color: orange; */
+  font-size: 30px;
+  font-weight: 600;
+}
+.aboutMeContainer .ux-box{
+  width: 80%;
+  height: 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+.ux-box .ux-skill{
+  width:80%;
+  background-color: Orange;
+  height: 15px;
+  border-radius: 10px;
+}
+.ux-box .app-skill{
+  width:75%;
+  background-color: Orange;
+  height: 15px;
+  border-radius: 10px;
+}
+.ux-box .web-skill{
+  width:90%;
+  background-color: Orange;
+  height: 15px;
+  border-radius: 10px;
+}
+.ux-box .G-skill{
+  width:65%;
+  background-color: Orange;
+  height: 15px;
+  border-radius: 10px;
+}
+.ux-box .nextjs-skill{
+  width:90%;
+  background-color: Orange;
+  height: 15px;
+  border-radius: 10px;
+}
+
+.serviceContainer{
+  height: 90vh;
+  /* width: 90%; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  text-align: center;
+  
+}
+ .servicesboxes .servicebox{
+  height: 250px;
+  width: 250px;
+  background-color: rgb(234, 234, 234);
+  text-align: left;
+  
+  border-radius: 15px;
+  margin: 0 auto;
+ }
+ .servicesboxes{
+  display: flex;
+  margin: 10px;
+ }
+ .serviceContainer heading{
+  font-size: 30px;
+  font-weight: 600;
+ 
+ }
+ .serviceContainer p{
+  /* text-align: center; */
+  /* width: 50%; */
+  /* padding: 30px; */
+  height: 10vh;
+
+  width: 40vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  
+ }
+ .servicebox img{
+  height: 70px;
+  margin: 10px;
+  
+
+ }
+ .servicebox span{
+  color:black;
+  font-size: 20px;
+  font-weight: 600;
+  /* margin-left: 0; */
+ }
+ .servicebox p{
+  width: 100%;
+  color: black;
+  font-size: 15px;
+  padding: 10px;
+ }
+ .servicebox:hover{
+  background-color: white;
+ }
