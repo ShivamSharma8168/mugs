@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Page1 from "../components/Page1";
 import AboutPage from "../components/AboutPage";
 import ServicePage from "../components/ServicesPage";
+import ProjectsPage from "../components/ProjectsPage";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <br/>
     <AboutPage />
     <ServicePage />
+    <ProjectsPage />
 
     
     

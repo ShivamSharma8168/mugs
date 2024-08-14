@@ -261,3 +261,70 @@ span4{
  .servicebox:hover{
   background-color: white;
  }
+ .projectContainer {
+  text-align: center;
+  height: 100vh;
+ }
+ 
+ .projectContainer span {
+  font-size: 30px;
+  font-weight: 600;
+ }
+ .projectContainer p{
+  height: 10vh;
+
+  width: 40vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+ .projectContainer .nav-btns button{
+  background-color: whitesmoke;
+  color: black;
+  margin: 10px;
+  padding:7px;
+  border-radius: 10px;
+ }
+ .nav-btns button:hover{
+  background-color: #FF8C00;
+  font-size: 1.05rem;
+ }
+ .projectContainer .projectList{
+  display: flex;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+ }
+ .projectContainer .projectList .box{
+  height: 350px;
+  width: 350px;
+  /* background-color: rgb(83, 75, 75); */
+  margin: 0 15px;
+  border-radius: 10px;
+
+ }
+ .box .img-box img{
+  width: 100%;
+  border-radius: 10px;
+ }
+ .box .img-box{
+  text-align: left;
+ }
+.box .img-box p{
+  width: 100%;
+  padding: 15px;
+}
+.box .img-box span1{
+  color:rgb(155, 75, 5);
+  font-size: 20px;
+  font-weight: 500;
+}
+.projectList .box:hover{
+  font-size: 1.05rem;
+}
+.box .img-box span1:hover{
+  font-size: 1.5rem;
+}
