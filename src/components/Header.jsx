@@ -7,18 +7,18 @@ const Header = () =>{
                     <div className="logo">
                         <img src="assets/my-image.jpg" />
                     </div>
-                    <div className="logo-name"> <span>Rapheal</span> </div>                    
+                      <span>Mumair</span>                   
                 </div>
 
                 <div className="rightSection">
-                    <a href="" >Home</a>
-                    <a href="" >About Me</a>
-                    <a href="" >Services</a>
-                    <a href="" >Projects</a>
-                    <a href="" >Testimonials</a>
-                    <a href="" >Contact</a>
+                    <a href="" id="" >Home</a>
+                    <a href="" id="" >About Me</a>
+                    <a href="" id="" >Services</a>
+                    <a href="" id="" >Projects</a>
+                    <a href="" id="" >Testimonials</a>
+                    <a href="" id="" >Contact</a>
                     
-                    <button id="cv-download" >Download CV</button>
+                    <a href="assets/ShivamResume.pdf" download="ShivamResume.pdf">  <button id="cv-download" >Download CV</button> </a> 
 
 
                 </div>
