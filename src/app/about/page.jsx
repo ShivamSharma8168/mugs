@@ -1,7 +1,8 @@
 import Link from "next/link";
 
 const AboutPage = () =>{
-    return (
+    return (<>
+        <br></br> <br></br>
         <div className="aboutContainer">
             <div className="photoContainer">
                 <div className="imgBox">
@@ -50,6 +51,8 @@ const AboutPage = () =>{
                 </div>
             </div>
         </div>
+        </>
+
 
     );
 };

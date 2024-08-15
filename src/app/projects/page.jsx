@@ -2,6 +2,8 @@ import Link from "next/link";
 
 const ProjectsPage = () => {
     return (
+        <>
+        <br></br> <br></br>
         <div className="projectContainer">
             <span>My Projects</span>
             <p>lorem ipsim Lorem ipsum dolor sit ameipsim Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor      </p>
@@ -46,6 +48,7 @@ const ProjectsPage = () => {
 
 
         </div>
+        </>
     );
 }
 

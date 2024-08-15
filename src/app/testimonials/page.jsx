@@ -2,6 +2,8 @@ import Link from "next/link";
 
 const TestimonialsPage = () =>{
     return (
+        <>
+        <br></br> <br></br>
         <div className="testimonialsContainer">
             <span>Testimonials</span>
             <p>lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor  </p>
@@ -32,6 +34,7 @@ const TestimonialsPage = () =>{
             </div>
 
         </div>
+        </>
 
 
     );

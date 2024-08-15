@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+main{
+  padding-top: 40px;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -55,7 +58,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  padding: 10px;
+  
+  position: fixed;
+  z-index: 1000;
+ 
 }
 
 .rightSection a{  
@@ -141,7 +148,8 @@ span4{
 
 
 /* Second /About me Page  */
-.aboutContainer{
+.aboutContainer{ 
+
   display: flex;
   justify-content: space-around;
  

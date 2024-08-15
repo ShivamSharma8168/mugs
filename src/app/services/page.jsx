@@ -2,6 +2,9 @@ import Link from "next/link";
 
 const servicePage = () =>{
     return (
+        <>
+        <br></br> <br></br>
+
         <div className="serviceContainer">
             <heading>Services</heading>
             {/* paragraph here  */}
@@ -35,6 +38,7 @@ const servicePage = () =>{
             </div>
 
         </div>
+        </>
 
     );
 };
