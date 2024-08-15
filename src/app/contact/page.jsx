@@ -9,7 +9,7 @@ const ConnectionPage = () => {
 
             <div className="connectionPage">
             <span>Lets Design Together</span>
-            <p> LOrem ispum dolor lorem ispsum dolor lorem ispsum dolorum dolor lorem ispsum dolor um dolor lorem ispsum dolor  </p>
+            <p> To check the functionalities of the components , I put My Resume in download button just to check the donwload functionality.  </p>
             <div className="contactSection">
                 <input type="email" placeholder="Enter Your Email" id="" required="" />
                 <button>Contact Me</button>

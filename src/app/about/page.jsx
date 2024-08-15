@@ -11,7 +11,7 @@ const AboutPage = () =>{
             </div>
             <div className="aboutMeContainer">
                 <div className="aboutLine">About Me</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing eligendi libero excepturi maiores molestiae cumque rerum reprehenderit vel, dolorum delectus quidem facere quas voluptatem voluptatum praesentium placeat.</p>
+                <p> For Your kind Information , this NextJs portfolio is developed as an assignment , Figma design is converted into NextJs portfolio and currnetly It does not meet Responsive Requirement .</p>
                 <div className="skillBars">
                     UX
                     <div className="ux-box">
