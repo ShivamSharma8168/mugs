@@ -14,7 +14,7 @@ const Page1 = () =>{
                  <br />
 
                  <p>
-                 This Portfolio is developed as an assingment recieved from Mugs through Internshala.This Portfolio is   under devlopement but still have some functionalities. 
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
                  </p>
                  <br/>

@@ -97,7 +97,7 @@ body {
 .firstPage{
   display: flex;
   justify-content: space-around;
-  height: 85vh;
+  height: 90vh;
 }
 .image-here img{
   margin-top: 65px;
@@ -341,7 +341,7 @@ span4{
 .testimonialsContainer{
   text-align: center;
   
-  height: 70vh;
+  height: 90vh;
 }
 .testimonialsContainer span{
   font-size: 30px;

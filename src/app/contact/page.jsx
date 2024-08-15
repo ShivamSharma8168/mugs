@@ -27,12 +27,12 @@ const ConnectionPage = () => {
 
          <div className="rightSection">
           
-             <Link href="/"> <a>Home</a> </Link>
-             <Link href="/about"> <a>About Me</a> </Link>
-             <Link href="/services">  <a  >Services</a> </Link>
-             <Link href="/projects"> <a  >Projects</a> </Link>
-             <Link href="/testimonials">  <a  >Testimonials</a> </Link>
-             <Link href="/contact"> <a  >Contact</a> </Link>
+             <Link href="/"> Home </Link>
+             <Link href="/about"> About Me </Link>
+             <Link href="/services"> Services </Link>
+             <Link href="/projects"> Projects </Link>
+             <Link href="/testimonials">  Testimonials</Link>
+             <Link href="/contact"> Contact </Link>
 
          </div>
          <div className="contactIcons">

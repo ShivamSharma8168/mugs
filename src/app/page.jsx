@@ -8,12 +8,7 @@ export default function Home() {
   return (
 
     <main>
-
-
-      <Page1 />
-
-
-
+      <Page1 />     
 
     </main>
 
